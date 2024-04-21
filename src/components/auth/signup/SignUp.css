@@ -1,0 +1,50 @@
+.Form-check-input:checked ~ .Form-check-label::before {
+    background-color: black;
+  }
+  
+/* Button.css */
+
+button {
+  background-color: #6B313C;
+  color: white;
+  font-family: "Urbanist Regular", sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Input.css */
+
+input {
+  background-color: #ffffff59;
+  color: white;
+  font-family: "Urbanist Light", sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  text-align: left;
+}
+input::placeholder {
+  color: #ffffff; /* set the color to pure white */
+}
+
+
+.text-box {
+  position: absolute;
+  left: 357px;
+  top: 36px;
+  transform: rotate(0deg);
+  width: 48px;
+  height: 391px;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  box-shadow: 0px 0px 30px #000000;
+  backdrop-filter: blur(30px);
+}

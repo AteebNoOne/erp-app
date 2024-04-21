@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 90%;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-button {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #505050;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.header-text {
+  color: #d67650;
+  font-style: bold;
+  font-size: 25pt;
+}
+
+.header-button:hover {
+  color: #000;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+  .header-text {
+    font-size: 15pt;
+  }
+  .header-button {
+    font-size: 15px;
+  }
+}

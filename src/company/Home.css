@@ -1,0 +1,78 @@
+.my-headings h1 {
+  font-family: "Urbanist", sans-serif;
+  font-style: bold;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.my-headings h2 {
+  font-family: "Urbanist Regular", sans-serif;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.button-demo {
+  background-color: #6b313c;
+  color: white;
+  font-family: "Urbanist Regular", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.footer_text p {
+  font-family: "Urbanist", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.footer_text span {
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.footer_text span:hover {
+  cursor: pointer;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  .my-headings h1 {
+    font-size: 1.9rem;
+  }
+
+  .my-headings h2 {
+    font-size: 1.2rem;
+  }
+  .button-demo {
+    padding: 2.1rem 2.9rem;
+  }
+  .footer_text p {
+    padding: 1rem;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  }
+}

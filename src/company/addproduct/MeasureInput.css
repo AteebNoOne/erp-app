@@ -1,0 +1,17 @@
+.measure-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.measure-input {
+  width: 9rem; /* adjust as needed */
+  margin-right: 3px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .measure-input{
+        width: 5rem;
+    }
+  }
+  

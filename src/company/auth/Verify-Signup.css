@@ -1,0 +1,70 @@
+.otp-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  h2,
+  h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .otp-input {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .otp-input input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 24px;
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+    width: 40px;
+  }
+  
+  .otp-input input:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  .verify-button[type="submit"] {
+    background-color: #6B313C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .verify-button[type="submit"]:hover {
+    background-color: #005ea2;
+  }
+  
+  .verified-text {
+    animation-name: fade-in;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

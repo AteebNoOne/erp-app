@@ -1,0 +1,98 @@
+.container-signup {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-signup label {
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: left;
+    width: 100%;
+    height: auto;
+}  
+
+.container-signup button {
+    background-color: #6B313C;
+    color: white;
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 1rem;
+    padding: 1rem 6.5rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+  
+.container-signup input {
+    background-color: #ffffff59;
+    color: white;
+    font-family: "Urbanist Light", sans-serif;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2px;
+    text-align: left;
+  }
+  input::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+}
+  
+
+.danger {
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .success {
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #064b00;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }  
+
+  .conflict {
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #a73805;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }    
+
+  .danger, .success, .conflict {
+    word-wrap: break-word;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    /* Adjust font sizes for smaller screens */
+    h1 {
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+    .container-signup input{
+        padding: 0.8rem 2rem;
+    }
+    .container-signup button{
+        padding: 0.8rem 7.27rem;
+    }
+    
+}      

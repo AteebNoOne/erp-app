@@ -1,0 +1,30 @@
+/* Button.css */
+
+button {
+    background-color: #6B313C;
+    color: white;
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Input.css */
+
+input {
+    background-color: #FFFFFF;
+    color: white;
+    font-family: "Urbanist Light", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px #0000000D;
+    filter: blur(30pt) brightness(15%);
+    backdrop-filter: blur(30pt) brightness(15%) saturate(180%) contrast(50%) opacity(0%);
+    text-align: left;
+}
+  

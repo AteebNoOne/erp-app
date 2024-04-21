@@ -1,0 +1,19 @@
+.options-area {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .options-area {
+    flex-direction: column;
+  }
+}

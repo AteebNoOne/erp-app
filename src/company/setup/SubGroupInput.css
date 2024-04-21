@@ -1,0 +1,75 @@
+/* ItemSetup */
+
+.tag-container {
+  position: relative;
+}
+.tag {
+  display: inline-block;
+  background-color: #d67650;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+.tag-remove {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+textarea {
+  background-color: #ffffff59;
+  display: block;
+  width: 16rem;
+  min-height: 5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+textarea::placeholder {
+  color: #ffffff; /* set the color to pure white */
+}
+
+.tag-container .tag:last-child {
+  margin-right: 0;
+}
+.tag-container .tag:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  z-index: 1;
+}
+
+.button-previous {
+  background-color: #d6765000;
+  color: white;
+  font-family: "Urbanist Regular", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 40rem;
+  left: 1rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  textarea {
+    width: 18rem;
+  }
+}

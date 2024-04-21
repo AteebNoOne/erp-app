@@ -1,0 +1,55 @@
+.sider {
+    width: 10%;
+    height: auto;
+    background-image: url("../../assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stacks the buttons vertically */
+    justify-content: center; /* Center aligns the buttons horizontally */
+    align-items: center; /* Center aligns the buttons vertically */
+    text-align: center; /* Center aligns the buttons on mobile */
+  }
+  
+  .sider-button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .sider-button:hover {
+    background-color: #ddd;
+    color: #fff;
+  }
+  
+  .sider-button:active {
+    background-color: #331c1c;
+    color: #fff;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .sider {
+      position: fixed; /* Makes the element stick to the bottom of the viewport */
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      flex-direction: row; /* Keeps the buttons horizontal in mobile view */
+      justify-content: space-evenly; /* Adds some spacing between the buttons */
+      padding: 10px; /* Reduces the padding for better mobile view */
+    }
+    
+    .sider-button {
+      margin-right: 0; /* Removes the right margin in mobile view */
+      margin-bottom: 10px; /* Adds some spacing between the buttons */
+    }
+  }

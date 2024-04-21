@@ -1,0 +1,69 @@
+/* Default styles */
+
+/* Button.css */
+button {
+  background-color: #6b313c;
+  color: white;
+  font-family: "Urbanist Regular", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 7rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Input.css */
+input {
+  background-color: #ffffff59;
+  color: white;
+  font-family: "Urbanist Light", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2px;
+  text-align: left;
+}
+input::placeholder {
+  color: #ffffff; /* set the color to pure white */
+}
+
+.container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-pass {
+  font-family: "Urbanist Regular", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  color: #ffffff;
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+
+.danger {
+  font-family: "Urbanist Regular", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff0000;
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  input {
+    padding: 1rem 2rem;
+  }
+  button {
+    padding: 1.2rem 7.6rem;
+  }
+}
